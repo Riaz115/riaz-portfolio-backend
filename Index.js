@@ -9,7 +9,7 @@ const cors = require("cors");
 //variables
 const port = process.env.PORT || 5000;
 const corsOptions = {
-  origin: "https://riaz-mernstack-portfolio.vercel.app/",
+  origin: "https://riaz-mernstack-portfolio.vercel.app",
   methods: "POST,GET,PUT ,DELETE,PATCH,HEAD,UPDATE",
   credentials: true,
 };
