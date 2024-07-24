@@ -30,7 +30,7 @@ const forRegisterSchema = mongoose.Schema({
   isAdmin: {
     required: true,
     type: Boolean,
-    default: true,
+    default: false,
   },
 });
 
